@@ -43,7 +43,7 @@ Response Body:
 }
 ```
 
-## View All Invoice
+## View All Invoices
 GET http://localhost:8080/invoices
 
 Response Body:
