@@ -2,6 +2,7 @@ pipeline {
   agent {
     docker {
       image 'maven:3.6.0-jdk-8-alpine'
+      args '-v C:\\Users\\gadnex\\.m2:/root/.m2'
     }
 
   }
